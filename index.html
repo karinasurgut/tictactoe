@@ -4,9 +4,28 @@
     <meta charset="utf-8">
     <title>title</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
   </head>
   <body>
-    <!-- page content -->
+	<div class="container">
+      <header><h1>Tic Tac Toe</h1></header>
+
+      <div class="message">Current Player: X</div>
+      <button class="play-again">Play Again</button>
+
+      <div class="gameboard">
+        <div id="0" class="square clean r-border b-border"></div>
+        <div id="1" class="square clean r-border b-border"></div>
+        <div id="2" class="square clean b-border"></div>
+        <div id="3" class="square clean r-border b-border"></div>
+        <div id="4" class="square clean r-border b-border"></div>
+        <div id="5" class="square clean b-border"></div>
+        <div id="6" class="square clean r-border"></div>
+        <div id="7" class="square clean r-border"></div>
+        <div id="8" class="square clean"></div>
+      </div>
+    </div>
+    
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
